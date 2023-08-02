@@ -1,6 +1,6 @@
 # Born2beroot
 
-## Summary
+## Introduction
 
 This project aims to introduce us to the wonderful world of virtualization.  
 We will create our first machine in VirtualBox (or UTM if we can’t use VirtualBox) under specific instructions.  
