@@ -9,7 +9,7 @@ Then, at the end of this project, we will be able to set up an operating system 
 ## General guidelines
 
 - The use of VirtualBox is mandatory.  
-- We only have to turn in a signature.txt file at the root of the repository. We must paste in it the signature of our machine’s virtual disk.
+- We only have to turn in a [signature.txt](signature.txt) file at the root of the repository. We must paste in it the signature of our machine’s virtual disk.
 
 ## Mandatory Part
 
@@ -34,7 +34,7 @@ Then, at the end of this project, we will be able to set up an operating system 
   - Each action using sudo has to be archived, both inputs and outputs. The log file has to be saved in the */var/log/sudo/* folder.
   - The TTY mode has to be enabled for security reasons.
   - The paths that can be used by sudo must be restricted. Example: */usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin*
-- We have to create a simple bash script called **monitoring.sh**. At server startup, the script will display the following information on all terminals every 10 minutes:
+- We have to create a simple bash script called [monitoring.sh](monitoring.sh). At server startup, the script will display the following information on all terminals every 10 minutes:
   - The architecture of the operating system and its kernel version.
   - The number of physical processors.
   - The number of virtual processors.
