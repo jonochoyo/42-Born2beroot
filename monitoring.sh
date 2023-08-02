@@ -16,7 +16,7 @@ ulog=$(users | wc -w)
 ip=$(hostname -I)
 mac=$(ip link show | grep “ether” | awk '{print $2}')
 cmds=$(journalctl _COMM=sudo | grep “COMMAND” | wc -l)
-wall “ #Architecture: $arc
+wall " #Architecture: $arc
 	   #CPU physical: $pcpu
 	   #vCPU: $vcpu
 	   #Memory Usage: $uram/${tram}MB ($pram%)
@@ -27,4 +27,4 @@ wall “ #Architecture: $arc
 	   #Connections TCP: $ctcp ESTABLISHED
 	   #User log: $ulog
 	   #Network: IP $ip ($mac)
-	   #Sudo: $cmds cmd"
+	   #Sudo: $cmds cmd "
